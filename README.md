@@ -5,7 +5,7 @@
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
 
 > Professional Python project: applied data analytics.
-> ## Author
+## Author
 
 Ahmad Saleem Mohmand
 GitHub: [amforphilosophy-sketch](https://github.com/amforphilosophy-sketch)
@@ -197,11 +197,52 @@ Remove unnecessary instructional comments in your custom files.
 
 Update these figures to present interesting results from your custom project:
 
+## Custom Project
+
+### Custom Question
+
+For my custom project, I explored this question:
+
+How do CO2 emissions compare across countries, and which countries show the highest CO2 per capita in the cleaned dataset?
+
+### Commands Used
+
+I ran the project with this command:
+
+```shell
+uv run python -m datafun.app_case
+```
+
+I checked the project with this command:
+
+```shell
+uvx pre-commit run --all-files
+```
+
+After confirming the project worked, I committed and pushed my changes to GitHub.
+
+### Process
+
+I used the provided CO2 emissions dataset and followed the exploratory data analysis workflow. The project loaded the raw dataset, inspected its structure, checked missing values, created a cleaned view, calculated descriptive statistics, computed correlations, and generated visualizations.
+
+The cleaned dataset had 308 rows after removing rows with missing required values. The original dataset had 350 rows, so 42 rows were dropped because of missing key values.
+
+### Custom Results
+
+The project showed that CO2 emissions vary widely across countries. The dataset included countries such as Brazil, Canada, China, France, Germany, India, Japan, the United Kingdom, the United States, and World. The results also showed that GDP and CO2 emissions had a strong positive relationship in the cleaned dataset.
+
+The project generated visual outputs, including a correlation heatmap, a GDP versus CO2 emissions scatter plot, and a CO2 per capita box plot by country.
+
+### Reflection
+
+I chose a smaller custom project because the goal was to apply the EDA workflow carefully and make sure the project still ran correctly. This was enough for this phase because I was able to load the data, inspect it, clean it, summarize it, visualize it, run pre-commit checks, commit the work, and push the project to GitHub.
+
+
 ![Correlation Heatmap](./docs/images/Figure_1.png)
 
-![Provide a Useful Caption](./docs/images/Figure_2.png)
+![GDP versus CO2 Emissions Scatter Plot](./docs/images/Figure_2.png)]
 
-![Provide a Useful Caption](./docs/images/Figure_3.png)
+![CO2 Per Capita by Country Box Plot](./docs/images/Figure_3.png)
 
 ## Project Documentation
 
