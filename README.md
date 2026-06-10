@@ -5,6 +5,12 @@
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
 
 > Professional Python project: applied data analytics.
+> ## Author
+
+Ahmad Saleem Mohmand
+GitHub: [amforphilosophy-sketch](https://github.com/amforphilosophy-sketch)
+Repository: [datafun-06-applied](https://github.com/amforphilosophy-sketch/datafun-06-applied)
+Documentation: [GitHub Pages Site](https://amforphilosophy-sketch.github.io/datafun-06-applied/)
 
 ## Project Goal
 
@@ -82,8 +88,8 @@ After you get a copy of this repo in your own GitHub account,
 open a machine terminal in your `Repos` folder:
 
 ```shell
-# Replace username with YOUR GitHub username.
-git clone https://github.com/username/datafun-06-applied
+# Clone Ahmad Saleem Mohmand's Module 6 repository.
+git clone https://github.com/amforphilosophy-sketch/datafun-06-applied.git
 
 cd datafun-06-applied
 code .
