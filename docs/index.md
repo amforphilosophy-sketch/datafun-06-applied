@@ -22,3 +22,37 @@ to get these projects running on your machine.
 The API page is not always easy to read at first,
 but it becomes useful as you get more comfortable with project structure,
 modules, functions, and docstrings.
+
+## Custom Project
+
+### Basis
+
+For this project, I started with the provided `datafun-06-applied` example project and the CO2 emissions dataset. The dataset includes information about countries, years, population, GDP, CO2 emissions, CO2 per capita, coal CO2, oil CO2, gas CO2, methane, nitrous oxide, greenhouse gas emissions, and temperature change from CO2.
+
+The project workflow loaded the raw dataset, inspected the structure, checked missing values, cleaned the data, calculated summary statistics, reviewed correlations, and generated visualizations.
+
+### Phase 4 Modifications
+
+For Phase 4, I made a small technical modification to the Python EDA workflow in `src/datafun/app_case.py`. I changed the author line to my name and added a custom log message inside the `main()` function.
+
+The custom message was:
+
+`CUSTOM MODIFICATION: Ahmad Saleem Mohmand reviewed and modified the EDA workflow.`
+
+I chose this modification because it was a safe way to show that I could edit a working Python project without breaking the workflow. I verified that it worked by running the project again with:
+
+`uv run python -m datafun.app_case`
+
+The project ran successfully, and the terminal output showed my custom modification message and the final “Executed successfully!” message.
+
+### Phase 5 Custom Project
+
+For Phase 5, I created a smaller custom project focused on this question:
+
+How do CO2 emissions compare across countries, and which countries show the highest CO2 per capita in the cleaned dataset?
+
+I used the existing CO2 emissions dataset and added a Custom Project section to my README. I described the commands I used, the process I followed, the cleaned dataset results, and the visual outputs. The original dataset had 350 rows, and the cleaned dataset had 308 rows after removing rows with missing required values.
+
+The project produced several visual outputs, including a correlation heatmap, a GDP versus CO2 emissions scatter plot, and a CO2 per capita box plot by country. These results helped show that CO2 emissions vary widely across countries and that GDP and CO2 emissions had a strong positive relationship in the cleaned dataset.
+
+This project helped me practice the full data analytics workflow: running a Python project, reading the output, modifying code, checking formatting with pre-commit, documenting results, committing changes, and pushing the work to GitHub. In the future, I could apply these same skills to education data, student performance data, attendance data, or other real-world datasets that require cleaning, visualization, and interpretation.
