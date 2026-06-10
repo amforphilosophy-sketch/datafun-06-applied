@@ -1,6 +1,6 @@
 """app_case.py - Project script (example).
 
-Author: Denise Case
+Author: Ahmad Saleem Mohmand
 Date: 2026-06
 
 Purpose:
@@ -616,6 +616,9 @@ def main() -> None:
     LOG.info("========================")
     LOG.info("START main()")
     LOG.info("========================")
+    LOG.info(
+        "CUSTOM MODIFICATION: Ahmad Saleem Mohmand reviewed and modified the EDA workflow."
+    )
 
     LOG.info(f"--- Section 2: Load dataset: {DATASET_NAME} ---")
     df = load_data()
